@@ -12,8 +12,7 @@ def dataStruct():
     print("1. Arrays \n2. Strings \n3. Linked Lists \n4.Trees \n5. Graphs \n6. Tries")
     userinput = input("Enter your selection:")
     if(userinput == '1'):
-        array.arraymain() 
-        # TODO: call the class properly
+        Array.arraymain()
     
 def algo():
     print("Algorithms is selected")
